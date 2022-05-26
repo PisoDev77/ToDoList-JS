@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
     <title>TODOS</title>
 </head>
 <body>
+    <div id="mainContainer">
+    <main>
+        <nav id="list-panels" class="flexRow">
+            <!-- List Panels -->
+            <div id="todo" title="todos">To Do List</div>
+            <div title="nottodos">Not To Do List</div>
+            <div title="purchase">Purchase List</div>
+            <div title="nopurchase">Do Not Purchase List</div>
+        </nav>
+        <!-- Add Form -->
+        <article>
+            <form>
+                <input type="text" name="content" id="">
+                <input type="submit" value="+">
+            </form>
+        </article>
+
+        <!-- List View -->
+        <article id="list-view" class="flexCol">
+            
+        </article>
+    </main>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>

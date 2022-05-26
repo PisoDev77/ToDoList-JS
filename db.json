@@ -1,31 +1,17 @@
 {
   "todos": [
     {
-      "content": "테스트 1",
+      "content": "aaaa",
       "completed": false,
       "id": 1
     },
     {
-      "content": "테스트 2",
-      "completed": true,
-      "id": 2
-    },
-    {
-      "content": "테스트 3",
+      "content": "bbb",
       "completed": false,
-      "id": 3
+      "id": 2
     }
   ],
-  "nottodos":[
-    {
-      "content": "NPT 3",
-      "completed": false,
-      "id": 3
-    },
-    {
-      "content": "NPT",
-      "completed": false,
-      "id": 3
-    }
-  ]
+  "nottodos": [],
+  "purchase": [],
+  "nopurchase": []
 }
